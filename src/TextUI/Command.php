@@ -48,7 +48,8 @@ namespace SebastianBergmann\PHPCPD\TextUI
     use SebastianBergmann\PHPCPD\Detector\Detector;
     use SebastianBergmann\PHPCPD\Detector\Strategy\DefaultStrategy;
     use SebastianBergmann\PHPCPD\Log\PMD;
-
+    /* To invoke the ez console tools, the reference to that bundle is necessary ! */
+    use ezc\ConsoleTools;
     /**
      * TextUI frontend for PHPCPD.
      *
